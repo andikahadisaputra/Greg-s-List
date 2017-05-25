@@ -5,7 +5,7 @@ nav {
   position: relative;
 
   font-size: 20px;
-  font-weight:600;
+  font-weight:400;
 }
 
 .logo {
@@ -31,12 +31,21 @@ nav {
 .nav-container li {
   display: inline-block;
   padding: 0 5px;
+
+}
+
+.nav-container li a{
   color: purple;
+}
+
+a:hover{
+  text-decoration: underline;
 }
 
 /*body content*/
 body .content {
   padding : 0 100px;
+  margin-top : 30px;
 }
 
 /* Search section */
@@ -71,7 +80,7 @@ body .content {
 
 /* Pagination section */
 .pagination{
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .pagi-container{
@@ -88,6 +97,10 @@ body .content {
 .pagination li{
   display: inline-block;
   padding: 10px
+}
+
+.pagination li a{
+  color: black;
 }
 
 .left{
@@ -117,16 +130,26 @@ body .content {
 
 .search-result
 {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .result{
   color: #A9A9A9;
+
+}
+
+.search-result ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.result a{
+  color: blue;
+  padding: 0 10px;
   font-weight: 600;
 }
 
-.result span{
-  color: blue;
-  display: inline-block;
-  padding: 0 10px;
+.result li{
+  padding: 5px;
 }
